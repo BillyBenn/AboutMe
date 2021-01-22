@@ -58,7 +58,7 @@ header img {
 
 header img:hover {
   border: 5px solid #000;
-  transform: scale(1.2) rotate(6deg);
+  transform: scale(1.2) rotate(5deg);
 
 }
 .tag {
@@ -104,4 +104,13 @@ footer {
 
 .tag-grey {
   background-color: grey;
+}
+
+.tag:hover {
+  padding: 15px;
+  transform: translateY(5px);
+}
+
+.transition {
+  transition: padding 0.2s ease-out;
 }
